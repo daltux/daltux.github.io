@@ -1,0 +1,14 @@
+http://deb.debian.org/debian/
+http://ftp.br.debian.org/debian/
+http://debian.c3sl.ufpr.br/debian/
+http://mirror.uepg.br/debian/
+http://debian.pop-sc.rnp.br/debian/
+http://alcateia.ufscar.br/debian/
+http://debian.itsbrasil.net/debian/
+http://debian.redlibre.cl/debian/
+http://mirror.hnd.cl/debian/
+http://debian.unnoba.edu.ar/debian/
+http://mirror.sitsa.com.ar/debian/
+http://ftp.pt.debian.org/debian/
+http://ftp.us.debian.org/debian/
+
