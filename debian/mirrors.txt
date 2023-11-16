@@ -1,13 +1,42 @@
+# Fast Debian repository mirrors for a South American/Brazilian host
+#
+# Usage example on /etc/apt/sources.list:
+# deb mirror+https://daltux.net/debian/mirrors.txt unstable main contrib #non-free non-free-firmware
+
+# World
 http://deb.debian.org/debian/
+
+# BR
 http://ftp.br.debian.org/debian/
 http://debian.c3sl.ufpr.br/debian/
 http://mirror.uepg.br/debian/
 http://debian.pop-sc.rnp.br/debian/
 http://alcateia.ufscar.br/debian/
 http://debian.itsbrasil.net/debian/
+
+# CL
+http://ftp.cl.debian.org/debian/
 http://debian.redlibre.cl/debian/
 http://mirror.hnd.cl/debian/
+http://mirror.insacom.cl/debian/
+
+# AR
 http://debian.unnoba.edu.ar/debian/
 http://mirror.sitsa.com.ar/debian/
+
+# Intl
 http://ftp.pt.debian.org/debian/
 http://ftp.us.debian.org/debian/
+https://debian.uvigo.es/debian/
+http://debian.uevora.pt/debian/
+http://debian-archive.trafficmanager.net/debian/
+http://debianmirror.una.ac.cr/debian/
+http://giano.com.dist.unige.it/debian/
+http://ftp.ch.debian.org/debian/
+http://ftp.cica.es/debian/
+https://ftp.bme.hu/debian/
+http://ftp.cz.debian.org/debian/
+http://mirror.pmf.kg.ac.rs/debian/
+http://ftp.lt.debian.org/debian/
+http://debian.mirror.constant.com/debian/
+
