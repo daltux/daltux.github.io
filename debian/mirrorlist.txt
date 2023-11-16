@@ -1,10 +1,12 @@
 # Fast Debian repository mirrors for a South American/Brazilian host
 #
 # Usage example on /etc/apt/sources.list:
-# deb mirror+https://daltux.net/debian/mirrors.txt unstable main contrib #non-free non-free-firmware
+# deb mirror+https://daltux.net/debian/mirrors.txt unstable main #contrib non-free non-free-firmware
+#
+# More info: https://manpages.debian.org/unstable/apt/apt-transport-mirror.1.en.html
 
 # World
-http://deb.debian.org/debian/
+https://deb.debian.org/debian/
 
 # BR
 http://ftp.br.debian.org/debian/
