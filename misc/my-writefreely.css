@@ -1,0 +1,209 @@
+	/* Written in 2020 by Jesse Watson, 2023 by Daltux
+
+	 This theme is licensed under a Creative Commons Attribution 4.0 
+	 International License.
+
+	 You should have received a copy of the license along with this
+	 work. If not, see http://creativecommons.org/licenses/by/4.0/
+	*/
+
+	body {
+		background-color: #1f262d;
+		font-family: monospace;
+	}
+
+	a {
+		color: #4ecca3;
+	}
+
+	li {
+		color: #d9d9d9;
+	}
+
+	header p.description {
+		color: #b3b3b3;
+	}
+
+	.post-title a:visited {
+		color: #4ecca3;
+		font-family: monospace;
+	}
+
+	.post-title a:link {
+		color: #4ecca3;
+		font-family: monospace;
+	}
+
+	.e-content p, body#post article#post-body .e-content {
+		text-align: justify;
+	}
+
+	/*#post*/ article #title {
+		color: #4ecca3;
+	}
+
+	/*#collection #wrapper h2,*/ #subpage {
+		color: #d9d9d9;
+	}
+
+	#official-writing h2, #official-writing h3, #official-writing h4, #wrapper h2, #wrapper h3, #wrapper h4 {
+		color: #4ecca3;
+		font-family: monospace;
+	}
+
+	#collection article .book .hidden.action {
+		color: #4ecca3;
+		font-family: monospace;
+	}
+	
+	body h1 {
+		font-size: 300%;
+	}
+
+	body h1 a {
+		color: #4ecca3;
+	}
+
+	body h1 a:hover {
+		color: #818a98;
+	}
+
+	post-title {
+		color: #393e46;
+	}
+
+	article h2 {
+		color: #e6e6e6;
+	}
+
+	body footer {
+		font-family: serif;
+	}
+
+	body footer nav {
+		color: #e6e6e6;
+	}
+	
+	/*body footer nav a.home,
+	body footer nav a.home.pudb,
+	body footer nav a:link,
+	body footer nav a:visited,
+	body footer ul a:link,
+	body footer ul a:visited,*/
+	body#collection footer nav a.home,
+	body#post footer nav a.home,
+	body#subpage footer nav a.home {
+		color: #b3b3b3;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	
+	body#collection footer nav a:link,
+	body#post footer nav a:link,
+	body#subpage footer nav a:link {
+		color: #ccc;
+	}
+
+	p {
+		color: #e6e6e6;
+	}
+
+	h1 {
+		color: #ffffff;
+		background-color: #24242;
+	}
+
+	hr {
+		background-color: #4ecca3;
+	}
+
+	header nav a, header nav span {
+		color: #b3b3b3;
+	}
+
+	/*nav#manage ul a {
+		color: inherit
+	}*/
+	
+	#post article h1, #post article h2, #post article h3, #post article h4, #post article h5, #post article h6 {
+		color: #4ecca3;
+		font-family: monospace;
+	}
+
+	#collection #wrapper h2+time, #subpage #wrapper h2+time {
+		color: #b3b3b3;
+	}
+
+	#wrapper h2, #wrapper #h2-heading, #wrapper #h5-heading, #wrapper h6#h6-heading {
+		color: #4ecca3;
+		font-family: monospace;
+		/*font-size: 110%;*/
+	}
+
+	#wrapper td {
+		color: #e6e6e6;
+	}
+
+	td {
+		color: #e6e6e6;
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+
+	th {
+		color: #e6e6e6;
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+
+	tr:nth-child(even) {
+		background-color: #393e46;
+	}
+
+	tr {
+		border-left: 1px solid #393e46;
+	}
+
+	#wrapper th {
+		color: #e6e6e6;
+	}
+
+	body#post article time.dt-published, body#collection #wrapper time {
+		font-size: 90%;
+		color: #808080;
+	}
+
+	article code, body#post article code, body#collection code, body#subpage code {
+		background-color: #393e46;
+		color: #4ecca3;
+		border: none;
+	}
+
+	body#collection #wrapper code {
+		background-color: #393e46;
+		color: #4ecca3;
+		font-size: 95%;
+		border: none;
+	}
+
+	body#post pre, body#collection #wrapper pre {
+		font-size: 100%;
+		background-color: #393e46;
+		border: none;
+	}
+
+	body#collection blockquote, body#post blockquote, body#subpage blockquote {
+		color: #ccc;
+		border-left: 4px solid #393e46;
+		font-size: 95%;
+	}
+
+	table {
+		width: -webkit-fill-available;
+		border-collapse: separate;
+		border-spacing: 0;
+	}
+
+	thead {
+		background: #393e46;
+	}
