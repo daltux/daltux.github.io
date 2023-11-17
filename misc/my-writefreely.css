@@ -1,10 +1,12 @@
-	/* Written in 2020 by Jesse Watson, 2023 by Daltux
-
-	 This theme is licensed under a Creative Commons Attribution 4.0 
-	 International License.
-
-	 You should have received a copy of the license along with this
-	 work. If not, see http://creativecommons.org/licenses/by/4.0/
+	/*	Written in 2020 by Jesse Watson, 2023 by Daltux
+	
+		This theme is licensed under a Creative Commons Attribution 4.0 
+		International License - http://creativecommons.org/licenses/by/4.0/
+		
+		Usage: open your WriteFreely blog, Menu, Customize, paste this file
+		contents in the field Custom CSS, customize what you want and Save changes.
+		
+		Possibility: @import url("https://daltux.net/misc/my-writefreely.css");
 	*/
 
 	body {
@@ -186,7 +188,7 @@
 		border: none;
 	}
 
-	body#post pre, body#collection #wrapper pre {
+	body#post pre, body#collection #wrapper pre, body#collection pre, body#subpage pre {
 		font-size: 100%;
 		background-color: #393e46;
 		border: none;
