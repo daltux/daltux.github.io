@@ -4,41 +4,55 @@
 # deb mirror+https://daltux.net/debian/mirrors.txt unstable main #contrib non-free non-free-firmware
 #
 # More info: https://manpages.debian.org/unstable/apt/apt-transport-mirror.1.en.html
+#
+# There is also mirrorlist.txt.gz generated with pigz -11 --oneblock --keep mirrorlist.txt
 
-# World
-https://deb.debian.org/debian/
+# Worldwide
+https://deb.debian.org/debian/			priority:0
 
 # BR
-http://ftp.br.debian.org/debian/
-http://debian.c3sl.ufpr.br/debian/
-http://mirror.uepg.br/debian/
-http://debian.pop-sc.rnp.br/debian/
-http://alcateia.ufscar.br/debian/
-http://debian.itsbrasil.net/debian/
+http://debian.pop-sc.rnp.br/debian/		priority:1
+http://mirror.uepg.br/debian/			priority:1
+http://debian.c4sl.ufpr.br/debian/		priority:1
+http://alcateia.ufscar.br/debian/		priority:1
+http://debian.itsbrasil.net/debian/		priority:1
+http://ftp.br.debian.org/debian/		priority:1
 
-# CL
-http://ftp.cl.debian.org/debian/
-http://debian.redlibre.cl/debian/
-http://mirror.hnd.cl/debian/
-http://mirror.insacom.cl/debian/
-
-# AR
-http://debian.unnoba.edu.ar/debian/
-http://mirror.sitsa.com.ar/debian/
+# AR / CL
+http://debian.unnoba.edu.ar/debian/		priority:2
+http://mirror.insacom.cl/debian/		priority:2
 
 # Intl
-http://ftp.pt.debian.org/debian/
-http://ftp.us.debian.org/debian/
-https://debian.uvigo.es/debian/
-http://debian.uevora.pt/debian/
-http://debian-archive.trafficmanager.net/debian/
-http://debianmirror.una.ac.cr/debian/
-http://giano.com.dist.unige.it/debian/
-http://ftp.ch.debian.org/debian/
-http://ftp.cica.es/debian/
-https://ftp.bme.hu/debian/
-http://ftp.cz.debian.org/debian/
-http://mirror.pmf.kg.ac.rs/debian/
-http://ftp.lt.debian.org/debian/
-http://debian.mirror.constant.com/debian/
+http://debian.redimadrid.es/debian/		priority:3
+http://mirror.us.leaseweb.net/debian/		priority:3
+http://ftp.cica.es/debian/			priority:3
+http://atl.mirrors.clouvider.net/debian/	priority:3
+http://repo.ifca.es/debian/			priority:3
+http://mirror.units.it/debian/			priority:3
+
+# Others
+
+# CL
+http://ftp.cl.debian.org/debian/		priority:4
+http://debian.redlibre.cl/debian/		priority:4
+http://mirror.hnd.cl/debian/			priority:4
+
+# AR
+http://mirror.sitsa.com.ar/debian/		priority:4
+
+# Intl
+http://ftp.pt.debian.org/debian/		priority:5
+http://ftp.us.debian.org/debian/		priority:5
+https://debian.uvigo.es/debian/			priority:5
+http://debian.uevora.pt/debian/			priority:5
+http://debian-archive.trafficmanager.net/debian/ priority:5
+http://debianmirror.una.ac.cr/debian/		priority:5
+http://giano.com.dist.unige.it/debian/		priority:5
+http://ftp.ch.debian.org/debian/		priority:5
+http://ftp.cica.es/debian/			priority:5
+https://ftp.bme.hu/debian/			priority:5
+http://ftp.cz.debian.org/debian/		priority:5
+http://mirror.pmf.kg.ac.rs/debian/		priority:5
+http://ftp.lt.debian.org/debian/		priority:5
+http://debian.mirror.constant.com/debian/	priority:5
 
